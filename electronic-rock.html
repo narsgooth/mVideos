@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Electropop @ mVideos.cf</title>
+		<link rel="stylesheet" href="mystyle.css"><script src="js/scale.js"></script>
+</head>
+	<body>
+		<center>
+			
+			
+			<div class="page_content">
+				
+				<a href="/"><img class="noContrast" src="logo.jpg" alt = "mVideos" ><br/></a>
+				<br/>
+				<div class="greyBar">
+					<br/>
+					<table>
+						<tr>
+							<b>ELECTROPOP</b>&emsp;
+						</tr>
+						<tr>
+							<form action="search">
+								 
+								<input name="q" size="40" placeholder="3000+ videos to search from...">
+								<input type="submit" title="Search" value=">">
+							</form>&emsp;
+						</tr>
+						<tr>
+							<label class="container">Explicit
+								<input type="checkbox" id="accept2" name="accept2" checked="checked">
+								<span class="checkmark"></span>
+							</label>&emsp;
+						</tr>
+						<tr>
+							<label class="container">Mature
+								<input type="checkbox" id="accept" name="accept" >
+								<span class="checkmark"></span>
+							</label>&emsp;
+						</tr>
+						<tr>
+							<button id="btn" title="Filter by Rating">Filter</button>&emsp;
+						</tr>
+						|&emsp;
+						<tr>
+							<button id="sort" title="Sort by Date Added" onClick="sortTable()">&#8593</button>&emsp;
+						</tr>
+						<tr>
+							<button id="select" title="Playlist Mode" onClick="injectButtons()">&#9836;</button>
+						</tr>
+					<br/>
+					<br/>
+				</div>
+				
+				<br/>
+				<table id="videos">
+					<tr>		
+						<td><a href="https://www.youtube.com/watch?v=w8mBplMtwJ8" target="_blank"><img src="i/s1920.jpg"><br/>Ava Max - My Head & My Heart</a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=KQhMySdisoI" target="_blank"><img src="i/s286.2.jpg"><br/>Elliphant - Could It Be </a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=mHMKCZ1mA_8" target="_blank"><img src="i/s1834.jpg"><br/>Elliphant - Look Like You Love It</a></td>						
+						<td><a href="https://www.youtube.com/watch?v=9xVo92yWNHM" target="_blank"><img src="i/s1080.jpg"><br/>Elliphant - Love Me Badder</a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=GuFLJWJ0_2I" target="_blank"><img src="i/s1831.jpg"><br/>Elliphant - North Star (Bloody Christmas)</a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=bw5pi9nUGJ8" target="_blank"><img src="i/s1079.jpg"><br/>Elliphant - Only Getting Younger ft. Skrillex</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://www.youtube.com/watch?v=Q26b4AK9Hhk" target="_blank"><img src="i/s1082.jpg"><br/>Elliphant - Spoon Me </a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=UeGgyT0ADzo" target="_blank"><img src="i/s287.2.jpg"><br/>Elliphant - Step Down </a></td>    
+						<td><a href="https://www.youtube.com/watch?v=w4s6H4ku6ZY" target="_blank"><img src="i/s299.2.jpg"><br/>Far East Movement - DEV - Like A G6 (ft. The Cataracs)</a></td>
+						<td><a href="https://www.youtube.com/watch?v=Tv9YoYCKNoE" target="_blank"><img src="i/s380.2.jpg"><br/>Grimes - Flesh without Blood/Life in the Vivid Dream</a></td>
+						<td><a href="https://www.youtube.com/watch?v=3pghMFz7q_8" target="_blank"><img src="i/s1710.jpg"><br/>Grimes - Infinite Love without Fulfilment</a></td>
+						<td><a href="https://www.youtube.com/watch?v=S8HrvII7gU0" target="_blank"><img src="i/s3054.jpg"><br/>Grimes - Oblivion</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://www.youtube.com/watch?v=N9XKLqGqwLA" target="_blank"><img src="i/s3059.jpg"><br/>Grimes - REALiTi</a></td>						
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=pzPElFdxMCM" target="_blank"><img src="i/s3055.jpg"><br/>Grimes - Shinigami Eyes</a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=3taEuL4EHAg" target="_blank"><img src="i/s1628.jpg"><br/>Ke$ha - Blah Blah Blah ft. 3OH!3</a></td>
+						<td><a href="https://www.youtube.com/watch?v=CFWX0hWCbng" target="_blank"><img src="i/s1627.jpg"><br/>Ke$ha - Blow</a></td>
+						<td><a href="https://www.youtube.com/watch?v=RpFMuBHxGWs" target="_blank"><img src="i/s1625.jpg"><br/>Ke$ha - Take It Off</a></td>
+						<td><a href="https://www.youtube.com/watch?v=edP0L6LQzZE" target="_blank"><img src="i/s1626.jpg"><br/>Ke$ha - Take It Off</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://www.youtube.com/watch?v=iP6XpLQM2Cs" target="_blank"><img src="i/s483.2.jpg"><br/>Ke$ha - TiK ToK</a></td>
+						<td><a href="https://www.youtube.com/watch?v=mXvmSaE0JXA" target="_blank"><img src="i/s1629.jpg"><br/>Ke$ha - We R Who We R</a></td>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=lXyA4MXKIKo" target="_blank"><img src="i/s1624.jpg"><br/>Ke$ha - Woman ft. The Dap-Kings Horns</a></td>
+						<td><a href="https://www.youtube.com/watch?v=QR_qa3Ohwls" target="_blank"><img src="i/s484.2.jpg"><br/>Ke$ha - Your Love Is My Drug </a></td>
+						<td><a href="https://www.youtube.com/watch?v=ew_c5ewoVQk" target="_blank"><img src="i/s526.2.jpg"><br/>La Roux - I'm Not Your Toy</a></td>
+						<td><a href="https://www.youtube.com/watch?v=tXtATeQ7GKg" target="_blank"><img src="i/s1725.jpg"><br/>La Roux - In For The Kill</a></td>
+					</tr>
+					<tr>
+						<td class="explicit"><a href="https://www.youtube.com/watch?v=qrO4YZeyl0I" target="_blank"><img src="i/s527.2.jpg"><br/>Lady Gaga - Bad Romance </a></td>
+						<td><a href="https://www.youtube.com/watch?v=wV1FrqwZyKw" target="_blank"><img src="i/s2035.jpg"><br/>Lady Gaga - Born This Way</a></td>
+						<td><a href="https://www.youtube.com/watch?v=wagn8Wrmzuc" target="_blank"><img src="i/s2036.jpg"><br/>Lady Gaga - Judas</a></td>
+						<td><a href="https://www.youtube.com/watch?v=2Abk1jAONjw" target="_blank"><img src="i/s1781.jpg"><br/>Lady Gaga - Just Dance ft. Colby O'Donis</a></td>
+						<td><a href="https://www.youtube.com/watch?v=d2smz_1L2_0" target="_blank"><img src="i/s2039.jpg"><br/>Lady Gaga - Paparazzi</a></td>
+						<td><a href="https://www.youtube.com/watch?v=bESGLojNYSo" target="_blank"><img src="i/s2038.jpg"><br/>Lady Gaga - Poker Face</a></td>
+					</tr>
+					<tr>
+						<td class="mature"><a href="https://www.youtube.com/watch?v=4klWCAkpHaU" target="_blank"><img src="i/s2040.jpg"><br/>Lady Gaga - Stage Dive at Lollapalooza 2010</a></td>
+						<td><a href="https://www.youtube.com/watch?v=EVBsypHzF3U" target="_blank"><img src="i/s528.2.jpg"><br/>Lady Gaga - Telephone ft. Beyoncé </a></td>
+						<td><a href="https://www.youtube.com/watch?v=ZmWBrN7QV6Y" target="_blank"><img src="i/s2173.jpg"><br/>Lady Gaga - Til It Happens To You</a></td>
+						
+					</tr>
+				</table>
+			</div><br/>
+			<br/>
+			<br/>
+			<br/>
+		<p id='playlist'></p>
+		<br>
+		<button id='playButton' onclick='play()'>Play</button>
+		<br>
+		<br>
+		</center>
+	</body>
+	
+	<script src="js/hide.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/sort.js"></script>
+</html>
