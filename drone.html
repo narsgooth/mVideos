@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Drone @ mVideos.cf</title>
+		<link rel="stylesheet" href="mystyle.css"><script src="js/scale.js"></script>
+</head>
+	<body>
+		<center>
+			
+			
+			<div class="page_content">
+				
+				<a href="/mVideos/"><img class="noContrast" src="logo.jpg" alt = "mVideos" ><br/></a>
+				<br/>
+				<div class="greyBar">
+					<br/>
+					<table>
+						<tr>
+							<b>DRONE</b>&emsp;
+						</tr>
+						<tr>
+							<form action="search">
+								 
+								<input name="q" size="40" placeholder="3000+ videos to search from...">
+								<input type="submit" title="Search" value=">">
+							</form>&emsp;
+						</tr>
+						<tr>
+							<label class="container">Explicit
+								<input type="checkbox" id="accept2" name="accept2" checked="checked">
+								<span class="checkmark"></span>
+							</label>&emsp;
+						</tr>
+						<tr>
+							<label class="container">Mature
+								<input type="checkbox" id="accept" name="accept" >
+								<span class="checkmark"></span>
+							</label>&emsp;
+						</tr>
+						<tr>
+							<button id="btn" title="Filter by Rating">Filter</button>&emsp;
+						</tr>|&emsp;
+						<tr>
+							<button id="sort" title="Sort by Date Added" onClick="sortTable()">&#8593</button>&emsp;
+						</tr>						
+						<tr>
+							<button id="select" title="Playlist Mode" onClick="injectButtons()">&#9836;</button>
+						</tr>
+					<br/>
+					<br/>
+				</div>
+				
+				<br/>
+				<table id="videos">
+					<tr>
+						<td><a href="https://www.youtube.com/watch?v=789KdgGozSw" target="_blank"><img src="i/s4127.jpg"><br/>Shamanic Visions – Journey Through Fractal Dimensions (Fractal Zoom)</a></td>
+						<td><a href="https://www.youtube.com/watch?v=_VA2PBLiqMg" target="_blank"><img src="i/s4128.jpg"><br/>Arctica - Annuminas (Extended Edition)</a></td>
+						<td><a href="https://www.youtube.com/watch?v=1zkoprENdAo" target="_blank"><img src="i/s4129.jpg"><br/>Aural Holograms - The Day Of Opening The Tomb</a></td>
+						<td><a href="https://www.youtube.com/watch?v=m7Knc3l8l9o" target="_blank"><img src="i/s4130.jpg"><br/>Black Mountain Transmitter - Black Goat Of The Woods</a></td>
+						<td><a href="https://www.youtube.com/watch?v=ICcK6Li5OfM" target="_blank"><img src="i/s4132.jpg"><br/>Thomas Köner - Daikan</a></td>
+						<td><a href="https://www.youtube.com/watch?v=3giQ8S05BZU" target="_blank"><img src="i/s4133.jpg"><br/>Naked City - Notre Dame De L'Oubli (For Olivier Messiaen)</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://www.youtube.com/watch?v=hKhHcy3PfNQ" target="_blank"><img src="i/s4135.jpg"><br/>Arktau Eos - Ioh-Maera (Full Album)</a></td>
+						<td><a href="https://www.youtube.com/watch?v=0E-LeLk6ZXg" target="_blank"><img src="i/s4136.jpg"><br/>Nurse With Wound - Salt</a></td>
+						<td><a href="https://www.youtube.com/watch?v=ubte1ElmNCU" target="_blank"><img src="i/s4137.jpg"><br/>Vishudha Kali - Rituals From Air</a></td>
+						<td><a href="https://www.youtube.com/watch?v=z6BFNHX4FRc" target="_blank"><img src="i/s4138.jpg"><br/>Vishudha Kali - Rituals From Fire</a></td>
+						
+
+					</tr>
+				</table>
+			</div><br/>
+			<br/>
+			<br/>
+			<br/>
+		<p id='playlist'></p>
+		<br>
+		<button id='playButton' onclick='play()'>Play</button>
+		<br>
+		<br>
+		</center>
+	</body>
+	
+	<script src="js/hide.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/sort.js"></script>
+</html>
