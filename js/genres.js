@@ -56,5 +56,6 @@ var genres = [
 'covers',
 'bass-boosted',
 'drone',
+'instrumental',
 'interviews'
 ];
