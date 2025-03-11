@@ -37,10 +37,11 @@ a.specialCategory{
 }
 img {
 	border-radius: 2%;
-	filter: saturate(100%) brightness(107%) contrast(90%);
+	filter: saturate(100%) brightness(100%) contrast(68.75%);
+	image-rendering: pixelated; /* For pixel art or sharp images */
 }
 .noContrast{
-	filter: contrast(100%);
+	filter: saturate(100%) brightness(100%) contrast(100%);	
 }
 #playButton { 
 	z-index: 2147483647; 
