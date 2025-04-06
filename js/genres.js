@@ -45,6 +45,7 @@ var genres = [
 'disco',
 'hip-hop',
 'emo',
+'mashup',
 'musical',
 'screamo',
 'crunkcore',
