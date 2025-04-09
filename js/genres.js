@@ -39,6 +39,7 @@ var genres = [
 'rock',
 'speedcore',
 'techno',
+'trance',
 'trap',
 'vaporwave',
 'electro-swing',
